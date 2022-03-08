@@ -58,8 +58,8 @@
     "start:prod": "next start",
     "test": "jest --passWithNoTests",
     "deploy:ar": "yarn export && arweave deploy-dir  ../../build/web --key-file ",
-    "deploy:gh": "yarn export && gh-pages -d ../../build/web --repo https://github.com/ShabakConsultantsInc/marketplace -t true",
-    "deploy": "cross-env ASSET_PREFIX=/marketplace/ yarn build && yarn deploy:gh",
+    "deploy:gh": "yarn export && gh-pages -d ../../build/web --repo https://github.com/ShabakConsultantsInc/marketplace2 -t true",
+    "deploy": "cross-env ASSET_PREFIX=/marketplace2/ yarn build && yarn deploy:gh",
     "format:fix": "prettier --write \"**/*.+(js|jsx|ts|tsx|json|css|md)\""
   },
   "browserslist": {
@@ -76,7 +76,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ShabakConsultantsInc/marketplace"
+    "url": "https://github.com/ShabakConsultantsInc/marketplace2"
   },
   "homepage": ".",
   "devDependencies": {
